@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F87CF6B62A0560B000C33A3A /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CF6B52A0560B000C33A3A /* BoardItem.swift */; };
+		F87CF6B82A0560CB00C33A3A /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CF6B72A0560CB00C33A3A /* Board.swift */; };
+		F87CF6BA2A0560D400C33A3A /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CF6B92A0560D400C33A3A /* Turn.swift */; };
+		F8B79F2C2A04C95800D2A06D /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B79F2B2A04C95800D2A06D /* BoardCell.swift */; };
 		F8E5A78129F0516D007BA2B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E5A78029F0516D007BA2B0 /* AppDelegate.swift */; };
 		F8E5A78329F0516D007BA2B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E5A78229F0516D007BA2B0 /* SceneDelegate.swift */; };
 		F8E5A78529F0516D007BA2B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E5A78429F0516D007BA2B0 /* ViewController.swift */; };
 		F8E5A78829F0516D007BA2B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E5A78629F0516D007BA2B0 /* Main.storyboard */; };
 		F8E5A78A29F0516E007BA2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E5A78929F0516E007BA2B0 /* Assets.xcassets */; };
 		F8E5A78D29F0516E007BA2B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E5A78B29F0516E007BA2B0 /* LaunchScreen.storyboard */; };
-		F8E5A79529F05B44007BA2B0 /* BoeardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E5A79429F05B44007BA2B0 /* BoeardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F87CF6B52A0560B000C33A3A /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
+		F87CF6B72A0560CB00C33A3A /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		F87CF6B92A0560D400C33A3A /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		F8B79F2B2A04C95800D2A06D /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
 		F8E5A77D29F0516C007BA2B0 /* FourInARow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourInARow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E5A78029F0516D007BA2B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8E5A78229F0516D007BA2B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +32,6 @@
 		F8E5A78929F0516E007BA2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E5A78C29F0516E007BA2B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8E5A78E29F0516E007BA2B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8E5A79429F05B44007BA2B0 /* BoeardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoeardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +67,11 @@
 				F8E5A78029F0516D007BA2B0 /* AppDelegate.swift */,
 				F8E5A78229F0516D007BA2B0 /* SceneDelegate.swift */,
 				F8E5A78429F0516D007BA2B0 /* ViewController.swift */,
+				F87CF6B52A0560B000C33A3A /* BoardItem.swift */,
+				F87CF6B72A0560CB00C33A3A /* Board.swift */,
+				F87CF6B92A0560D400C33A3A /* Turn.swift */,
 				F8E5A78629F0516D007BA2B0 /* Main.storyboard */,
-				F8E5A79429F05B44007BA2B0 /* BoeardCell.swift */,
+				F8B79F2B2A04C95800D2A06D /* BoardCell.swift */,
 				F8E5A78929F0516E007BA2B0 /* Assets.xcassets */,
 				F8E5A78B29F0516E007BA2B0 /* LaunchScreen.storyboard */,
 				F8E5A78E29F0516E007BA2B0 /* Info.plist */,
@@ -141,10 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E5A79529F05B44007BA2B0 /* BoeardCell.swift in Sources */,
+				F87CF6B62A0560B000C33A3A /* BoardItem.swift in Sources */,
 				F8E5A78529F0516D007BA2B0 /* ViewController.swift in Sources */,
+				F87CF6B82A0560CB00C33A3A /* Board.swift in Sources */,
 				F8E5A78129F0516D007BA2B0 /* AppDelegate.swift in Sources */,
+				F8B79F2C2A04C95800D2A06D /* BoardCell.swift in Sources */,
 				F8E5A78329F0516D007BA2B0 /* SceneDelegate.swift in Sources */,
+				F87CF6BA2A0560D400C33A3A /* Turn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Z9M7D6Y3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FourInARow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2Z9M7D6Y3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FourInARow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
