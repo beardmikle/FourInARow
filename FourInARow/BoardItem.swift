@@ -41,7 +41,7 @@ struct BoardItem {
             return .systemYellow
         }
         
-        return .white
+        return .systemIndigo
     }
 
 }

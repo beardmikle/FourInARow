@@ -34,7 +34,6 @@ func yellowTurn() -> Bool
     return currentTurn == Turn.Yellow
 }
 
-
 func redTurn() -> Bool
 {
     return currentTurn == Turn.Red
